@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pippome.app-release-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Games\\2DGame\\PuzzleGame3\\PippoMe\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "415"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "207",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "567"
+                    }
+                },
+                {
+                    "source": "D:\\Games\\2DGame\\PuzzleGame3\\PippoMe\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "98,55",
+                        "endColumns": "56,42",
+                        "endOffsets": "150,93"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,112",
+                        "endColumns": "56,42",
+                        "endOffsets": "107,150"
+                    }
+                },
+                {
+                    "source": "D:\\Games\\2DGame\\PuzzleGame3\\PippoMe\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "155",
+                        "endColumns": "51",
+                        "endOffsets": "202"
+                    }
+                }
+            ]
+        }
+    ]
+}

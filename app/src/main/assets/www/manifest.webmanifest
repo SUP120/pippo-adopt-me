@@ -1,0 +1,10 @@
+{
+  "name": "Pippo & Me — Cozy Life Buddy",
+  "short_name": "Pippo",
+  "description": "Adopt a baby buddy, take care of it, and grow together as it mirrors your real life. A cozy life-buddy simulator.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fdf8e7",
+  "theme_color": "#f2ead3",
+  "orientation": "portrait"
+}

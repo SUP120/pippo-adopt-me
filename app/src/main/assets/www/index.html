@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#fdf8e7">
+<title>Pippo &amp; Me</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="css/theme.css?v=25">
+</head>
+<body>
+<div id="app">
+
+  <!-- SPLASH -->
+  <div id="screen-splash" class="screen">
+    <div class="splash-inner">
+      <div id="splashArt"></div>
+      <h1 class="game-title">Pippo <span class="amp">&amp;</span> Me</h1>
+      <p class="tagline">A cozy life-buddy simulator</p>
+      <button id="btnBegin" class="btn primary big">Begin</button>
+      <div id="splashFoot" class="foot">Continuing a save? It will load on Begin.</div>
+    </div>
+  </div>
+
+  <!-- ADOPTION -->
+  <div id="screen-adoption" class="screen hidden"></div>
+
+  <!-- HOME -->
+  <div id="screen-home" class="screen hidden">
+    <div id="topbar">
+      <div id="chipDay" class="chip solid"></div>
+      <div class="topbar-right">
+        <div id="chipCoins" class="chip"></div>
+        <div class="btn-tray">
+          <button id="btnQuests" class="iconbtn" title="Daily quests"></button>
+          <button id="btnBrain" class="iconbtn" title="Brain &amp; Life"></button>
+          <button id="btnSound" class="iconbtn" title="Sound"></button>
+          <button id="btnSettings" class="iconbtn" title="Settings"></button>
+        </div>
+      </div>
+    </div>
+    <div id="meters"></div>
+    <button id="dailyNote" class="daily-note"></button>
+    <div id="stage">
+      <svg id="scene" viewBox="0 0 480 600" preserveAspectRatio="xMidYMid slice"></svg>
+      <div id="fxlayer"></div>
+      <div id="speech" class="hidden"></div>
+    </div>
+    <div id="dock"></div>
+
+    <!-- Pippo's Life Book — slide-in drawer -->
+    <div id="lifeDrawer">
+      <div id="lifeScrim"></div>
+      <aside id="lifePanel">
+        <div class="life-head">
+          <span class="life-medal" data-ico="book"></span>
+          <div>
+            <h3>Pippo&rsquo;s Life Book</h3>
+            <div class="mtext soft">Our little life, in one book</div>
+          </div>
+          <button id="lifeClose" title="Close"></button>
+        </div>
+        <div class="life-sub">Tap a page to open it</div>
+        <div class="life-tiles">
+          <button class="life-tile t-story" id="ltNotes"><span class="tile-medal" data-ico="pencil"></span><b>Little notes</b><i>Our illustrated pages</i></button>
+          <button class="life-tile t-skills" id="ltSkills" title="Real skills">
+            <span class="tile-medal" data-ico="pencil"></span><b>Real skills</b><i>Goals from your real life</i>
+          </button>
+          <button class="life-tile t-story" id="ltStory" title="Pippo's story">
+            <span class="tile-medal" data-ico="book"></span><b>Pippo&rsquo;s story</b><i>Read our tale so far</i>
+          </button>
+          <button class="life-tile t-badges" id="ltBadges" title="Badges">
+            <span class="tile-medal" data-ico="badge"></span><b>Badges</b><i>Trophies we earned</i>
+          </button>
+          <button class="life-tile t-prof" id="ltProf" title="Life path">
+            <span class="tile-medal" data-ico="brain"></span><b>Life path</b><i>Pick who Pippo mirrors</i>
+          </button>
+        </div>
+      </aside>
+      <button id="lifeTab" title="Open Pippo's Life Book" aria-label="Open Pippo's Life Book">
+        <span class="tab-ico" data-ico="book"></span>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<div id="modalRoot"></div>
+<div id="toasts"></div>
+
+<script src="js/01_theme.js"></script>
+<script src="js/02_audio.js"></script>
+<script src="js/03_fx.js"></script>
+<script src="js/04_art.js"></script>
+<script src="js/05_data.js"></script>
+<script src="js/05b_courses.js"></script>
+<script src="js/05c_realed.js"></script>
+<script src="js/06_state.js"></script>
+<script src="js/07_rig.js"></script>
+<script src="js/08_screens.js"></script>
+<script src="js/10_livelihood.js"></script>
+<script src="js/11_quests.js"></script>
+<script src="js/12_lessons.js"></script>
+<script src="js/13_memory.js"></script>
+<script src="js/14_games.js"></script>
+<script src="js/15_notes.js"></script>
+<script src="js/09_main.js"></script>
+</body>
+</html>

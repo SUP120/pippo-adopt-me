@@ -1,0 +1,7 @@
+com.pippome.app:style/Theme.PippoMe = 0x7f050000
+com.pippome.app:mipmap/ic_launcher = 0x7f030000
+com.pippome.app:drawable/ic_launcher_foreground = 0x7f020000
+com.pippome.app:color/pippo_bg = 0x7f010001
+com.pippome.app:mipmap/ic_launcher_round = 0x7f030001
+com.pippome.app:string/app_name = 0x7f040000
+com.pippome.app:color/ic_launcher_background = 0x7f010000

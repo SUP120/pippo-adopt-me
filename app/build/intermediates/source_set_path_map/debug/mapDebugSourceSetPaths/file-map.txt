@@ -1,0 +1,7 @@
+com.pippome.app-pngs-0 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\generated\res\pngs\debug
+com.pippome.app-resValues-1 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\generated\res\resValues\debug
+com.pippome.app-packageDebugResources-2 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.pippome.app-packageDebugResources-3 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.pippome.app-debug-4 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.pippome.app-debug-5 D:\Games\2DGame\PuzzleGame3\PippoMe\app\src\debug\res
+com.pippome.app-main-6 D:\Games\2DGame\PuzzleGame3\PippoMe\app\src\main\res

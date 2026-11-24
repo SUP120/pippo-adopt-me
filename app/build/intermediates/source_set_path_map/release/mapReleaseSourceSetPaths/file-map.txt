@@ -1,0 +1,7 @@
+com.pippome.app-pngs-0 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\generated\res\pngs\release
+com.pippome.app-resValues-1 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\generated\res\resValues\release
+com.pippome.app-packageReleaseResources-2 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.pippome.app-packageReleaseResources-3 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.pippome.app-release-4 D:\Games\2DGame\PuzzleGame3\PippoMe\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.pippome.app-main-5 D:\Games\2DGame\PuzzleGame3\PippoMe\app\src\main\res
+com.pippome.app-release-6 D:\Games\2DGame\PuzzleGame3\PippoMe\app\src\release\res
